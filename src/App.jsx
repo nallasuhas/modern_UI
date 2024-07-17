@@ -1,5 +1,6 @@
 import ButtonGradient from "./assets/assets/svg/ButtonGradient"
 import Button from "./components/Button"
+import Header from "./components/Header"
 
 function App() {
 
@@ -7,9 +8,7 @@ function App() {
   return (
     <>
     <div className="pt-4  lg:pt-5 overflow-hidden">
-      <Button className='mt-10' href='#login' >
-         something
-      </Button>
+     <Header />
     </div>
       <ButtonGradient />
     </>
