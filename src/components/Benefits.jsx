@@ -25,7 +25,7 @@ function Benefits() {
                     style={{ backgroundImage: `url(${item.backgroundUrl})` }}
                     key={item.id}>
                         {/* flex-container */}
-                        <div className=" flex flex-col min-h-[22rem] p-[2.4rem] pointer-events-none shadow-md shadow-white rounded-lg">
+                        <div className=" flex flex-col min-h-[22rem] p-[2.4rem] pointer-events-none shadow-md shadow-white rounded-xl">
                            <h5 className="h5 mb-5">
                             {item.title}
                            </h5>
