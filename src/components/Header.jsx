@@ -13,7 +13,7 @@ import {disablePageScroll, enablePageScroll} from "scroll-lock"
 function Header() {
 
   const pathname = useLocation();
-  const [openNavigation, setOpenNavigation] = useState(true);
+  const [openNavigation, setOpenNavigation] = useState(false);
 
   function handleClick(){
     if (!openNavigation) return;
